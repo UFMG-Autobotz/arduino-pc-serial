@@ -22,6 +22,12 @@ robotA.stop()
 '''
 '''
 
+# Directly send without sendtoMotor() protocol
+telemetry.write("Hello World!")
+
+'''
+'''
+
 # Close communication channel
 # Shall be used in the end of the code to finish communication
 telemetry.end()
