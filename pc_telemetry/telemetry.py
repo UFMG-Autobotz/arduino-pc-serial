@@ -14,6 +14,9 @@ def end():
 def read():
 	return board.read()
 
+def write(_data):
+	board.write(_data)
+
 class robot(object):
 	"""declare a new robot"""
 	def __init__(self, address):
